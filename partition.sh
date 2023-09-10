@@ -51,5 +51,6 @@ echo 'Keep /dev/sda1 without file system.'
 
 # SSD sdb1
 mkfs.vfat -F 32 /dev/sdb1
+mkfs.ext4 -q /dev/sdb2
 
 # parted --script /dev/sdb -- p
