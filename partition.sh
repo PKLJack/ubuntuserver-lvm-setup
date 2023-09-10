@@ -20,9 +20,9 @@ echo '#########################'
 parted --script /dev/sda -- mkpart 'hdd' ext4 0% 100%
 
 # SSD
-parted --script /dev/sdb -- mkpart 'efi' fat32 1MiB 1001MiB  # make /dev/sdb1
-parted --script /dev/sdb -- mkpart 'boot' ext4 1001MiB 3001MiB  # make /dev/sdb2
-parted --script /dev/sdb -- mkpart 'root' ext4 3001MiB 100%   # make /dev/sdb3
+parted --script /dev/sdb -- mkpart 'efi' fat32 1MiB 1000MiB  # make /dev/sdb1
+parted --script /dev/sdb -- mkpart 'boot' ext4 1000MiB 2800MiB  # make /dev/sdb2
+parted --script /dev/sdb -- mkpart 'root' ext4 2800MiB 100%   # make /dev/sdb3
 
 # parted --script /dev/sda -- p ; parted --script /dev/sdb -- p
 
