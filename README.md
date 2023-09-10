@@ -19,7 +19,7 @@ SSD:
 
 ```sh
 git clone https://github.com/PKLJack/ubuntuserver-lvm-setup.git
-cd mxlinux-setup
+cd ubuntuserver-lvm-setup
 chmod u+x *.sh
 
 # Run
