@@ -17,6 +17,6 @@ pvdisplay --separator=':' --columns --noheadings | cut -d ':' -f 1 | xargs -r pv
 wipefs --all /dev/sdb
 wipefs --all /dev/sda
 
-# Unmount stuff
-umount -q /dev/sda
-umount -q /dev/sdb
+# # Unmount stuff
+# umount -q /dev/sda
+# umount -q /dev/sdb
