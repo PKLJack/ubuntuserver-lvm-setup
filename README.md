@@ -23,5 +23,5 @@ cd ubuntuserver-lvm-setup
 chmod u+x *.sh
 
 # Run
-./reset.sh && partition.sh && lvm.sh
+./reset.sh && ./partition.sh && ./lvm.sh
 ```
